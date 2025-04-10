@@ -37,7 +37,7 @@ export class GasStationServer {
     const app = express();
     
     app.use(cors({
-      origin: 'http://localhost:5173', // only allow your React app's origin
+      origin: 'http://localhost:5173', // only allow React app's origin
     }));
 
     const { port } = this.config;
